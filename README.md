@@ -1,7 +1,7 @@
 # ADA Project - Creative extension
 
 
-## Title : ...
+## Title : Unmeasured Confounding - Sensitivity Analysis of Treatment Effect 
 
 
 ## Abstract
@@ -16,7 +16,11 @@ Propensity score of a data point represents its probability of receiving the tre
 Also they did robustness checks but they might have forget some covariates.
 
 * Sensitivity analysis : evaluate the effect of unobserved covariates
-Concern that some important baseline differences were not measured, so that individuals who appear comparable may not be.
+Concern that some important baseline differences were not measured, so that individuals who appear comparable may not be. Sensitivity analysis in observational studies can address this, by finding what the unmeasured covariate would have to be like to change the study's conclusions.
+
+A fundamental concern when conducting evaluations using observational data is that unmeasured confounding—one or more additional factors that cause both the treatment
+assignment and the outcome—might be mistaken for a treatment effect. In observational research, it is unlikely that data for all potential confounding variables will be available. Thus, one should conduct a post-estimation sensitivity analysis to assess how strong a relationship would have to be between an unmeasured confounder and the treatment assignment, as well as between the unmeasured confounder and the outcome, to explain away an observed treatment effect.
+
 * Propensity score matching : better result
 
 
