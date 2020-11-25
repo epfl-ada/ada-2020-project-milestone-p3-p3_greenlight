@@ -45,10 +45,10 @@ Null hypothesis H_0 : the treatment is without effect, that each subject would h
 alternative treatment.
 
 * Propensity score matching:
-- Use logistic regression to estimate propensity scores for all points in the dataset.
-- Use the propensity scores to match each data point from the treated group with exactly one data point from the control group, while ensuring that each data point from the control group is matched with at most one data point from the treated group.
-- Maximize the similarity between matched subjects, as captured by their propensity scores. In other words, the sum (over all matched pairs) of absolute propensity-score differences between the two matched subjects should be minimized.
-- Do we want some feature to be exactly EQUAL during this matching ??
+   - Use logistic regression to estimate propensity scores for all points in the dataset.
+   - Use the propensity scores to match each data point from the treated group with exactly one data point from the control group, while ensuring that each data point from the control group is matched with at most one data point from the treated group.
+   - Maximize the similarity between matched subjects, as captured by their propensity scores. In other words, the sum (over all matched pairs) of absolute propensity-score differences between the two matched subjects should be minimized.
+   - Do we want some feature to be exactly EQUAL during this matching ??
 
 ## Proposed timeline
 
