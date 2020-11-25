@@ -2,6 +2,7 @@
 library(dplyr)
 library(reshape2)
 library(ggplot2)
+library(sensitivitymv)
 
 # Load data
 
@@ -14,5 +15,5 @@ head(data)
 
 # Sensitivity analysis
 
-# senmv(y, gamma=1, method=NULL, inner=0, trim=2.5, lambda=1/2, tau=0, TonT=FALSE)
+senmv(data, gamma=1, method=NULL, inner=0, trim=2.5, lambda=1/2, tau=0, TonT=FALSE)
 
