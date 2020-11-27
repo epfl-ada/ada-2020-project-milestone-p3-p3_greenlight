@@ -30,8 +30,8 @@ The same dataset as the paper will be used, with no additional data.
    - Propensity score matching : (1) Use logistic regression to estimate propensity scores for all points in the dataset. (2) Use the propensity scores to match each data point from the treated group with exactly one data point from the control group. (3) Maximize the similarity between matched subjects, as captured by their propensity scores. In other words, the sum (over all matched pairs) of absolute propensity-score differences between the two matched subjects should be minimized.
 
 * Sensitivity analysis on the matching:
-   - Specify the outcomes that we want to test
-   - Using sensitivitymv R library (more specifically senmv function), find the gamma for which the p-value is superior to 0.05. This would allow us to evaluate the robustness of the model towards the bias between the paper assignment and a randomized one.
+   - Specify the outcomes that we want to test.
+   - Using *sensitivitymv* R library (more specifically senmv function), find the gamma for which the p-value is superior to 0.05. This would allow us to evaluate the robustness of the model towards the bias between the paper assignment and a randomized one.
    - Interpret the results of an amplification of sensitivity analysis using the strength and shift values, which could help quantify the effect of an unobserved covariate.
 
 
