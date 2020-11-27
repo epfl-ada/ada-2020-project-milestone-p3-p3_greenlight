@@ -26,39 +26,40 @@ The same dataset as the paper will be used, with no additional data.
    - Classification of the most predictive regressors in terms of their effect of $R^2$.
    
 * Treatment and Control Matching:
-   - Replication of the paper's matching (using the described variables)
-   - Propensity score matching : (1) Use logistic regression to estimate propensity scores for all points in the dataset. (2) Use the propensity scores to match each data point      from the treated group with exactly one data point from the control group, while ensuring that each data point from the control group is matched with at most one data point      from the treated group. (3) Maximize the similarity between matched subjects, as captured by their propensity scores. In other words, the sum (over all matched pairs) of absolute propensity-score differences between the two matched subjects should be minimized.
-   - Do we want some feature to be exactly EQUAL during this matching ??
+   - Replication of the paper's matching : based on the four variables described, minimise the L-infinite distance to match the pairs of control and treatment data points.
+   - Propensity score matching : (1) Use logistic regression to estimate propensity scores for all points in the dataset. (2) Use the propensity scores to match each data point from the treated group with exactly one data point from the control group. (3) Maximize the similarity between matched subjects, as captured by their propensity scores. In other words, the sum (over all matched pairs) of absolute propensity-score differences between the two matched subjects should be minimized.
 
 * Sensitivity analysis on the matching:
-   - Linear regression models use t-test to check the significance of the computed coefficients.
+   - Specify the outcomes that we want to test
+   - Using sensitivitymv R library (more specifically senmv function), find the gamma for which the p-value is superior to 0.05. This would allow us to evaluate the robustness of the model towards the bias between the paper assignment and a randomized one.
+   - Interpret the results of an amplification of sensitivity analysis using the strength and shift values, which could help quantify the effect of an unobserved covariate.
 
 
 ## Proposed timeline
 
 * Week 1:
-- Conduct the benchmark analysis on available data.
-- Start the sensitivity analysis of matching.
+   - Conduct the benchmark analysis on available data.
+   - Start the process of matching.
 
 * Week 2:
-- Create the propensity score matching and conduct the comparative study.
+   - Finalise matching and conduct the sensitivity analysis.
+   - Start datastory.
 
 * Week 3:
-- Prepare datastory and finalise results.
+   - Finalise datastory.
+   - Prepare video script.
 
 ## Organization within the team
 
-* Louise:
-* Lucas:
-* Hugo:
-
-A list of internal milestones up until project milestone P4. 
-Add here a sketch of your planning for the next project milestone.
+* Louise: sensitivity analysis using R
+* Lucas: matching of treatment and control
+* Hugo: benchmark study
+* all : datastory and video
 
 ## Ressources
 
-* 
+* Paul R. Rosenbaum, Design of observational studies, Springer, 2010
+* Paul R. Rosenbaum, Observation and experiment : An introduction to causal inference., Harvard University Press, 2017
+* Paul R. Rosenbaum, Sensitivity analysis in obervational studies, Encyclopedia of Statistics in Behavioural Science, 2005
+* C. A. Hosman et al., The Sensitivity of linear regression coefficients' confidence limits to the omission of a confounder, 2010
 
-## Questions for TAs (optional)
-
-Add here any questions you have for us related to the proposed project.
