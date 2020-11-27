@@ -6,26 +6,13 @@
 
 ## Abstract
 
-Due to the lack of random assignment to treatment groups in observational studies, omitted variable bias can affect treatment effect estimates. Indeed, it is possible that important baseline differences were not measured, and that individuals who appear comparable may in fact not be. One can therefore always put into question results of regression analyses for such studies, and sensitivity analysis allows to quantify the impact of potential omitted variables. In this extension, we propose to conduct a multi-step robustness check to verify the paper's results: firstly, a benchmark analysis is conducted based on available data to establish reference points for speculation about confounders. Next, a sensitivity analysis is carried out on the matching between treated and control groups, in order to assess the bias needed to change the results significantly. Finally, propensity score matching is used as an alternative matching solution, in order to compare with the original results. 
-
-
-Paper 'Housing, health and happiness' : observational study using a naive model. 
-They verified if control and treatment sets were similar in terms of mean and size, but they didn't use matching. Maybe we can obtain better results by using matching techniques. The idea is to predict the propensity score of a data point, i.e. its probability of receiving the treatment, based on its pre-treatment features. Match data points by pairs with similar propensity scores. 
-
-Also they did robustness checks but they might have forget some unmeasured covariates.
-We suggest to use the sensitivity analysis that allows to evaluate the effect of unobserved covariates. 
-- Verify if unmeasured confounding—one or more additional factors could cause both the treatment assignment and the outcome. 
-- assess how strong a relationship would have to be between an unmeasured confounder and the treatment assignment
-Concern that some important baseline differences were not measured, so that individuals who appear comparable may not be. Sensitivity analysis in observational studies can address this, by finding what the unmeasured covariate would have to be like to change the study's conclusions.
-
--> déjà 200 mots donc reformuler en faisant court et précis
-comment on fait notre data story ?
+Due to the lack of random assignment to treatment groups in observational studies, omitted variable bias can affect treatment effect estimates. Indeed, it is possible that important baseline differences were not measured, and that individuals who appear comparable may in fact not be. One can therefore always put into question results of regression analyses for such studies, and sensitivity analysis allows to quantify the impact of potential omitted variables. In this extension, we propose to conduct a multi-step robustness check to verify the paper's results: firstly, a benchmark analysis is conducted based on available data to establish reference points for speculation about confounders. Next, a sensitivity analysis is carried out for various matching methods between treated and control groups, in order to assess the bias needed to change the results significantly. Specifically, a similar matching as the paper and propensity score matching are studied. 
 
 ## Research Questions
 
 Here are some research questions that we would like to address during the project:
 * What are the most important variables in the data set in terms of predicting power for the studied models ? 
-* What would the unmeasured covariates have to be like to alter the conclusions of the study ?
+* How strong would the bias have to be to alter the conclusions of the study, i.e. how sensitive to bias is the study design ?
 * Would porpensity score matching improve the accuracy of the results ?
 
 ## Proposed dataset
