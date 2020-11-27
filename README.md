@@ -23,7 +23,7 @@ The same dataset as the paper will be used, with no additional data.
 
 * Benchmark Analysis of available data:
    - Improve the visualisation of results for the studied models in the paper.
-   - Classification of the most predictive regressors in terms of their effect of $R^2$.
+   - Classification of the most predictive regressors in terms of their effect on R^2.
    
 * Treatment and Control Matching:
    - Replication of the paper's matching : based on the four variables described, minimise the L-infinite distance to match the pairs of control and treatment data points.
