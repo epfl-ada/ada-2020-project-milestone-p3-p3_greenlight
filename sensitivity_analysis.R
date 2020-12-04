@@ -6,14 +6,16 @@ library(sensitivitymv)
 
 # Load data
 
-filename <- "../data/114542-V1/PisoFirme_AEJPol-20070024_household.csv"
+filename <- "../data/P3/X_shcementfloor.csv" #X_S_satislife.csv"
 file.exists(filename)
 
-data <- read.table(filename, sep=",", row.names = 1, header= TRUE)
-
-head(data)
+y <- read.table(filename, sep=",", header= TRUE)
+head(y)
 
 # Sensitivity analysis
+  
+senmv(y, gamma=1, method=NULL, inner=0, trim=2.5, lambda=1/2, tau=0, TonT=FALSE)
 
-senmv(data, gamma=1, method=NULL, inner=0, trim=2.5, lambda=1/2, tau=0, TonT=FALSE)
+  # Amplification of sensitivity analysis
 
+#amplify(gamma=2, 3)
