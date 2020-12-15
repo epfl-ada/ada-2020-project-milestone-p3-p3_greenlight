@@ -54,7 +54,7 @@ The same dataset as the paper will be used, with no additional data.
 * Louise: sensitivity analysis using R
 * Lucas: matching of treatment and control
 * Hugo: benchmark study
-* all : datastory and video
+* All : datastory and video
 
 ## Ressources
 
