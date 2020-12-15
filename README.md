@@ -1,7 +1,7 @@
 # ADA Project - Creative extension for 'Housing, Health, and Happiness'
 
 
-## Title : Unmeasured Confounding - Sensitivity Analysis of Treatment Effect 
+## Title : Unmeasured Confounding and Bias - Sensitivity Analysis of Treatment Effect 
 
 
 ## Abstract
