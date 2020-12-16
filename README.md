@@ -13,9 +13,8 @@ In this extension, we propose to conduct a robustness check to verify the matchi
 ## Research Questions
 
 Here are some research questions that we would like to address during the project:
+* What is the impact of different matchings on the difference in the distribution of variables between the control group and the treatment group?
 * How strong would the bias have to be to alter the conclusions of the study, depending on different matching techniques, i.e. how sensitive to bias is the study design ?
-* Would propensity score matching improve the accuracy of the results ?
-* What are the predicting power of variables in the data set for the studied models ? Is it possible to use the results to illustrate the power of bias required to alter the conclusions of the study ? 
 
 ## Proposed dataset
 
@@ -55,7 +54,7 @@ The same dataset as the paper will be used, with no additional data.
 
 * Louise: sensitivity analysis using R
 * Lucas: matching of treatment and control
-* Hugo: benchmark study
+* Hugo: SMD implementation
 * All : datastory and video
 
 ## Ressources
