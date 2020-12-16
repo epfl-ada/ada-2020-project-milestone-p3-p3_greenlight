@@ -6,14 +6,16 @@
 
 ## Abstract
 
-Due to the lack of random assignment to treatment groups in observational studies, omitted variable bias can affect treatment effect estimates. One can therefore question results of regression analyses for such studies, and sensitivity analysis allows to quantify the impact of potential omitted variables. Specifically, in this paper the matching between treatment and control is not fully transparent, and the lack of sensitivity analysis does not allow to measure its performance. In this extension, we propose to conduct a multi-step robustness check to verify the paper's results: firstly, a benchmark analysis is conducted based on available data to establish reference points for speculation about confounders. Next, a sensitivity analysis is carried out for various matching methods between treated and control groups, in order to assess the bias needed to change the results significantly. Specifically, a similar matching as the paper and propensity score matching are studied. 
+Due to the lack of random assignment to treatment groups in **observational studies**, omitted variable bias can affect treatment effect estimates. One can therefore question results of regression analyses for such studies, and **sensitivity analysis** allows to quantify the impact of potential **omitted variables**. In the paper 'Housing, Health and Happiness', the matching between treatment and control is not fully transparent, and the lack of sensitivity analysis does not allow to measure its performance. 
+
+In this extension, we propose to conduct a robustness check to verify the matching through a sensitivity analysis for various matching methods, in order to assess the bias needed to change the results significantly. Specifically, a **similar matching as proposed in the paper** and a **propensity score matching** are studied. Finally, analysis of the regressions performed in the paper for the different matchings can be carried out. 
 
 ## Research Questions
 
 Here are some research questions that we would like to address during the project:
-* What are the most important variables in the data set in terms of predicting power for the studied models ? 
-* How strong would the bias have to be to alter the conclusions of the study, i.e. how sensitive to bias is the study design ?
-* Would propensity score matching (or another matching method) improve the accuracy of the results ?
+* How strong would the bias have to be to alter the conclusions of the study, depending on different matching techniques, i.e. how sensitive to bias is the study design ?
+* Would propensity score matching improve the accuracy of the results ?
+* What are the predicting power of variables in the data set for the studied models ? Is it possible to use the results to illustrate the power of bias required to alter the conclusions of the study ? 
 
 ## Proposed dataset
 
