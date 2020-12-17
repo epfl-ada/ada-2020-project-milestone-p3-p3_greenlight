@@ -3,17 +3,17 @@
 
 ## Title : Unmeasured Confounding and Bias - Sensitivity Analysis of Treatment Effect 
 
---------------------------
-
-The full data story is available [here](https://ada-greenlight.github.io/)
-
---------------------------
-
 ## Abstract
 
 Due to the lack of random assignment to treatment groups in **observational studies**, omitted variable bias can affect treatment effect estimates. One can therefore question results of regression analyses for such studies, and **sensitivity analysis** allows to quantify the impact of potential **omitted variables**. In the paper ['Housing, Health and Happiness'](https://www.aeaweb.org/articles?id=10.1257/pol.1.1.75), the matching between treatment and control is not fully transparent, and the lack of sensitivity analysis does not allow to measure its performance. 
 
 In this extension, we propose to conduct a robustness check to verify the matching through a sensitivity analysis for various matching methods, in order to assess the bias needed to change the results significantly. Specifically, a **similar matching as proposed in the paper** and a **propensity score matching** are studied. Finally, analysis of the regressions performed in the paper for the different matchings can be carried out. 
+
+--------------------------
+
+The full data story is available [here](https://ada-greenlight.github.io/)
+
+--------------------------
 
 ## Research Questions
 
