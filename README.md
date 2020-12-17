@@ -5,7 +5,7 @@
 
 --------------------------
 
-Our full data story can be visualised [here](https://ada-greenlight.github.io/)
+The full data story is available [here](https://ada-greenlight.github.io/)
 
 --------------------------
 
