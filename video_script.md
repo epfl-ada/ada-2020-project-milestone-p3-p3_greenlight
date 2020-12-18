@@ -3,11 +3,11 @@
 
 Duration : 2 min
  
-## 1) Context \[20sec\]
+## 1) Context \[10sec\]
 
 Hello ! We are team Greenlight.
 
-In the 2000's, a large-scale program called Piso Firme offered households in Mexico, cement floor to replace dirt floor. The paper ‘Housing, Health and Happiness’ aims to measure the impact of this program on health and welfare of young children and their mothers. 
+In the 2000's, a large-scale program called Piso Firme offered households in Mexico cement floors to replace dirt floors. The paper ‘Housing, Health and Happiness’ aims to measure the impact of this program on health and welfare of young children and their mothers. 
 
 
 ## 2) Observational studies \[30sec\]
@@ -22,8 +22,11 @@ A solution is to use matching. The idea is to create pairs with one treated and 
 
 ## 4) Sensitivity analysis \[30sec\]
 
-We assumed that the probability to be treated was 0.5 inside the matched pairs. But there might exists a unmeasured confounder that could unbalance this probability. Sensitivity analysis allows to quantify this discrepancy. And the second step called amplification, allows to discuss the existence of an unobserved covariate.
+We assumed that the probability to be treated was 0.5 inside the matched pairs. But there might exists a unmeasured confouder that could unbalance this probability. Sensitivity analysis allows to quantify this discrepancy. And the second step called amplification, allows to discuss the existence of unobserved covariates. 
+We can see that some outcomes are much more sensible to small bias compared to others.
 
+
+## 5) Conclusion \[20sec\]
 
 Go and read the entire data story !
 
