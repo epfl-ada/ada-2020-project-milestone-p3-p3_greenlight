@@ -24,3 +24,4 @@ A solution is to use matching. The idea is to create pairs with one treated and 
 
 We assumed that the probability to be treated was 0.5 inside the matched pairs. But there might exists a unmeasured confouder that could unbalance this probability. Sensitivity analysis allows to quantify this discrepancy. And the second step called amplification, allows to discuss the existence of unobserved covariates. 
 
+If you are interested in seeing our results, go read the entire data story!
