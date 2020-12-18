@@ -3,7 +3,7 @@
 
 Duration : 2 min
  
-## 1) Context \[10sec\]
+## 1) Context \[20sec\]
 
 Hello ! We are team Greenlight.
 
@@ -22,11 +22,8 @@ A solution is to use matching. The idea is to create pairs with one treated and 
 
 ## 4) Sensitivity analysis \[30sec\]
 
-We assumed that the probability to be traeted was 0.5 inside the matched pairs. But there might exists a unmeasured confouder that could unbalance this probability. Sensitivity analysis allows to quantify this discrepancy. And the second step called amplification, allows to discuss the existence of an unobserved covariate. 
-We can see that some outcomes are much more sensible to small bais compared to others.
+We assumed that the probability to be treated was 0.5 inside the matched pairs. But there might exists a unmeasured confounder that could unbalance this probability. Sensitivity analysis allows to quantify this discrepancy. And the second step called amplification, allows to discuss the existence of an unobserved covariate.
 
-
-## 5) Conclusion \[20sec\]
 
 Go and read the entire data story !
 
