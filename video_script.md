@@ -22,6 +22,7 @@ A solution is to use matching. The idea is to create pairs with one treated and 
 
 ## 4) Sensitivity analysis \[30sec\]
 
-We assumed that the probability to be treated was 50% inside the matched pairs. But there might exist unmeasured confounders that could unbalance this probability. Sensitivity analysis allows to quantify this discrepancy. And the second step called amplification, allows to discuss the existence of unobserved covariates. 
+The naive model assumes that the probability to be treated is 50% inside the matched pairs. But there might exist unmeasured confounders that could unbalance this probability. Sensitivity analysis allows to quantify this discrepancy. More specifically, we can compute the minimum bias for which we cannot reject the hypothesis of no treatment effect. 
+The second step is then called 'amplification', and it allows to discuss the characteristics of these unobserved covariates. 
 
 If you are interested in seeing our results, go read the entire data story!
