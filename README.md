@@ -33,7 +33,7 @@ The same dataset as the paper will be used, with no additional data.
 
 * Sensitivity analysis on the matching:
    - Specify the outcomes that we want to test.
-   - Using *sensitivitymv* R library (more specifically senmv function), find the gamma for which the p-value is superior to 0.05. This would allow us to evaluate the robustness of the model towards the bias between the paper assignment and a randomized one.
+   - Using `sensitivitymv` R library (more specifically senmv function), find the gamma for which the p-value is superior to 0.05. This would allow us to evaluate the robustness of the model towards the bias between the paper assignment and a randomized one.
    - Interpret the results of an amplification of sensitivity analysis using the strength and shift values, which could help quantify the effect of an unobserved covariate.
 
 
@@ -58,7 +58,7 @@ The same dataset as the paper will be used, with no additional data.
 * Hugo: SMD implementation
 * All : datastory and video
 
-## Ressources
+## Resources
 
 * Paul R. Rosenbaum, Design of observational studies, Springer, 2010
 * Paul R. Rosenbaum, Observation and experiment : An introduction to causal inference., Harvard University Press, 2017
