@@ -7,12 +7,12 @@ Duration : 2 min
 
 Hello ! We are team Greenlight.
 
-In the 2000's, a large-scale program called Piso Firme offered households in Mexico cement floors to replace dirt floors. The paper ‘Housing, Health and Happiness’ aims to measure the impact of this program on health and welfare of young children and their mothers. 
+In 2000, a large-scale program called Piso Firme offered households in Mexico cement floors to replace dirt floors. The paper ‘Housing, Health and Happiness’ aims to measure the impact of this program on health and welfare of young children and their mothers. 
 
 
 ## 2) Observational studies \[30sec\]
 
-This study is what we call an observational study, because there is no random assignment to treatment groups. So omitted variable bias can affect treatment effect estimates. Using standardized mean differences we showed that the control and treatment data sets were not balanced in terms of pre-treatment variables.
+This study is what we call an observational study, because there is no random assignment to treatment groups. So omitted variable bias can affect treatment effect estimates. Using standardised mean differences we showed that the control and treatment data sets were not well balanced in terms of pre-treatment variables.
 
 
 ## 3) Matching \[30sec\]
