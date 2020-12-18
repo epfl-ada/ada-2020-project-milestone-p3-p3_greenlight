@@ -45,17 +45,17 @@ The same dataset as the paper will be used, with no additional data.
 
 * Week 2:
    - Finalise matching and conduct the sensitivity analysis.
-   - Start datastory.
+   - Start data story.
 
 * Week 3:
-   - Finalise datastory.
+   - Finalise data story.
    - Prepare video script.
 
 ## Organization within the team
 
 * Louise: sensitivity analysis using R
 * Lucas: matching of treatment and control
-* Hugo: SMD implementation
+* Hugo: SMD implementation, graphs and visualisation
 * All : datastory and video
 
 ## Resources
