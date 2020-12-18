@@ -12,7 +12,7 @@ In 2000, a large-scale program called Piso Firme offered households in Mexico ce
 
 ## 2) Observational studies \[30sec\]
 
-This study is what we call an observational study, because there is no random assignment to treatment groups. So omitted variable bias can affect treatment effect estimates. Using standardised mean differences we showed that the control and treatment data sets were not well balanced in terms of pre-treatment variables.
+This study is what we call an observational study, because there is no random assignment to treatment groups. So omitted variable bias can affect treatment effect estimates. Using standardised mean differences we can check whether the control and treatment data sets are well balanced in terms of pre-treatment variables.
 
 
 ## 3) Matching \[30sec\]
